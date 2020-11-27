@@ -1,6 +1,5 @@
 .logo {
-  background: url('https://hexschool.github.io/webLayoutTraining1st/week7/logo-fixie.svg')
-    center no-repeat;
+  background: url('../images/logo-fixie.svg') center no-repeat;
   display: block;
   width: 112px;
   height: 38px;
@@ -12,8 +11,7 @@
 
 .banner {
   &-bg {
-    background: url('https://hexschool.github.io/webLayoutTraining1st/week7/img1.jpg')
-      center no-repeat;
+    background: url('../images/img1.jpg') center no-repeat;
     background-size: cover;
     height: 860px;
   }
@@ -21,16 +19,14 @@
 
 .gear {
   &-bg {
-    background: url('https://hexschool.github.io/webLayoutTraining1st/week7/img2.jpg')
-      center no-repeat;
+    background: url('../images/img2.jpg') center no-repeat;
     background-size: cover;
   }
 }
 
 .stripped {
   &-bg {
-    background: url('https://hexschool.github.io/webLayoutTraining1st/week7/img3.jpg')
-      center no-repeat;
+    background: url('../images/img3.jpg') center no-repeat;
     background-size: cover;
   }
 }
