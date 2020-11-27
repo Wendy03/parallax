@@ -10590,7 +10590,8 @@ a.text-dark:hover, a.text-dark:focus {
 html,
 body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden; }
 
 img {
   display: block;
