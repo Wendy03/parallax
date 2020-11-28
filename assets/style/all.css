@@ -10627,18 +10627,18 @@ img {
       -ms-transform: translateX(0px);
           transform: translateX(0px); }
   [data-aos='translateX-left'].aos-animate {
-    -webkit-transform: translateX(-50px);
-        -ms-transform: translateX(-50px);
-            transform: translateX(-50px); }
+    -webkit-transform: translateX(-30px);
+        -ms-transform: translateX(-30px);
+            transform: translateX(-30px); }
 
 [data-aos='translateX-right'] {
   -webkit-transform: translateX(0px);
       -ms-transform: translateX(0px);
           transform: translateX(0px); }
   [data-aos='translateX-right'].aos-animate {
-    -webkit-transform: translateX(50px);
-        -ms-transform: translateX(50px);
-            transform: translateX(50px); }
+    -webkit-transform: translateX(30px);
+        -ms-transform: translateX(30px);
+            transform: translateX(30px); }
 
 .logo {
   background: url("../images/logo-fixie.svg") center no-repeat;
