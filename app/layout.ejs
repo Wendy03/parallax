@@ -24,7 +24,6 @@
         class="navbar navbar-expand-lg bg-light py-2"
         data-aos="fade-down"
         data-aos-delay="300"
-        data-aos-duration="300"
       >
         <div class="container-fluid">
           <h1><a class="navbar-brand logo" href="#">Fixie</a></h1>
@@ -44,7 +43,13 @@
     </header>
     <main role="main"><%- contents %></main>
 
-    <footer class="footer" data-aos="fade-up" data-aos-delay="200">
+    <footer
+      class="footer"
+      data-aos="fade-up"
+      data-aos-duration="200"
+      data-aos-delay="200"
+      data-aos-anchor-placement="bottom"
+    >
       <div
         class="container d-flex justify-content-between bg-light py-3 font-lota"
       >
@@ -82,9 +87,7 @@
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
     <script>
-      AOS.init({
-        once: true,
-      });
+      AOS.init();
     </script>
   </body>
 </html>
