@@ -10663,10 +10663,6 @@ img {
   background: url("../images/img3.jpg") center no-repeat;
   background-size: cover; }
 
-.slogan {
-  max-width: 600px;
-  margin: 0 auto; }
-
 .jumbotron-bg {
   background: url("https://hexschool.github.io/webLayoutTraining1st/week7/img4.jpg") center no-repeat;
   background-size: cover;
