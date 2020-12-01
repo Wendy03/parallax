@@ -1,11 +1,11 @@
 ---
-title: 首頁
+title: Fixie
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<div class="container-fluid banner row no-gutters align-items-center">
+<header class="container-fluid banner row no-gutters align-items-center px-0">
   <div class="banner-content col-md-6">
     <div class="row">
       <div class="offset-lg-3">
@@ -46,7 +46,7 @@ current: index
     data-aos-once="true"
   >
     <div class="banner-bg"></div>
-    <ul class="d-flex list-unstyled mb-0 d-flex">
+    <ul class="d-flex list-unstyled mb-0">
       <li class="border border-dark">
         <a href="#"
           ><span class="material-icons font-weight-bold p-8 display-4">
@@ -66,8 +66,8 @@ current: index
       </li>
     </ul>
   </div>
-</div>
-<div class="container-fluid">
+</header>
+<div class="container-fluid px-0">
   <ul class="list-unstyled">
     <li class="row no-gutters h-100 gear">
       <div
@@ -174,36 +174,46 @@ current: index
   </ul>
 </div>
 <div class="container-fluid slogan text-center py-13">
-  <h2
-    class="display-4 font-merri font-italic line-height-1 mb-4"
-    data-aos="fade-up"
-    data-aos-delay="400"
-  >
-    A collection built for <br />
-    regular commuters
-  </h2>
-  <p class="font-lota text-secondary" data-aos="fade-up" data-aos-delay="500">
-    Riders unknown to each other commonly greet each other when on bikes. As in
-    many subcultures, this feeling of belonging is a key factor in recruiting
-    and retaining participants.
-  </p>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2
+        class="display-4 font-merri font-italic line-height-1 mb-4"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        A collection built for <br />
+        regular commuters
+      </h2>
+      <p
+        class="font-lota text-secondary"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        Riders unknown to each other commonly greet each other when on bikes. As
+        in <br />
+        many subcultures, this feeling of belonging is a key factor in
+        recruiting and <br />
+        retaining participants.
+      </p>
+    </div>
+  </div>
 </div>
 <div
   class="jumbotron jumbotron-fluid jumbotron-bg d-flex flex-column justify-content-end"
 >
   <div class="container">
     <div class="row">
-      <div class="col-5 bg-white" data-aos="fade-up" data-aos-delay="800">
-        <p class="h4 font-italic font-merri">
+      <div class="col-md-4 bg-white" data-aos="fade-up" data-aos-delay="800">
+        <p class="h4 font-italic font-merri py-3 mb-0">
           “I like to ride. Fixed gear. No brakes.<br />
           Can’t stop. Don’t want to, either.”
         </p>
-        <p class="text-secondary">Premium Rush (2012)</p>
+        <blockquote class="text-secondary">Premium Rush (2012)</blockquote>
       </div>
     </div>
   </div>
 </div>
-<div class="container py-13">
+<div class="container py-13 px-0">
   <ul class="row list-unstyled">
     <li class="col-md-4 col-12" data-aos="fade-up" data-aos-delay="800">
       <div class="card h-100 border-0">
