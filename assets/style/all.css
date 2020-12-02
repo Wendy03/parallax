@@ -320,7 +320,7 @@ h5, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.875rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -10581,19 +10581,8 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
 body {
   overflow-x: hidden; }
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto; }
 
 .btn-center {
   position: absolute;
